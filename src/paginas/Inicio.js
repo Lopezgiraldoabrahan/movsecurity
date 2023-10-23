@@ -1,15 +1,19 @@
 import React from 'react';
 import Menu from '../componentes/menu';
-import Footer from '../componentes/footer';
-import Productos from '../componentes/productos';
-import Programa from '../imagenes/Programa.jpg';
+import Encabezado from '../componentes/Encabezado';
+import Productos from '../componentes/Pie';
+import vista from '../imagenes/vista.jpg';
+import humano from '../imagenes/humano.png';
+import seguridad from '../imagenes/seguridad.jpg';
+import '../Estilos/styles.css';
+
 
 
 function Inicio() {
     return(
-        <div className='Inicio'>
+        <div className='Inicio px-2'>
            <Menu/>
-           <Footer/>
+            <Encabezado/>
            <Productos/>
            <div id="carouselExampleIndicators" class="carousel slide">
   <div class="carousel-indicators">
@@ -19,13 +23,13 @@ function Inicio() {
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src={Programa} class="d-block w-100" alt="..."/>
+      <img src={vista} class="d-block w-100" alt="..."/>
     </div>
     <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="..."/>
+      <img src={humano} class="d-block w-100" alt="..."/>
     </div>
     <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="..."/>
+      <img src={seguridad}class="d-block w-100" alt="..."/>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

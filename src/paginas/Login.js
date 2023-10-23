@@ -1,9 +1,16 @@
 import React from "react";
+import Form from "../componentes/Form";
+
+
 
 
 function Login() {
     return(
-        <h1>Hola mundo desde el login</h1>
+        <div className='Login'>
+           <Form/>
+
+        </div>
+
     );
 }
 
