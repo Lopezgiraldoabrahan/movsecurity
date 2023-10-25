@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import axios from 'axios';
-import Inicio from './Inicio/';
+import Inicio from '../paginas/Inicio';
 
 
 function Registro () {
@@ -17,11 +17,8 @@ function Registro () {
     
     if(txtNombre.length===0 || txtApellido.length===0 ||txtIdentificacion.length===0||txtTelefono.length===0 || txtContraseña.length===0||txtCorreo.length===0){
     alert("No puedes dejar campos sin llenar");
+  }
 
-  }
-  if(txtContraseña !==txtContraseña){
-    alert("Las contraseñas N")
-  }
   else{
     var res=peticionPost(txtNombre,txtApellido,txtIdentificacion,txtTelefono,txtCorreo,txtContraseña)
     console.log("res-->",res)
