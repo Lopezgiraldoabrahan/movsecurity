@@ -16,23 +16,23 @@ function Nav(){
               <a className="nav-link active" aria-current="page" href="/Inicio">Menu inicial</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Archivos</a>
+              <a className="nav-link" href="/#">Archivos</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#"> < BsFillBrightnessHighFill/> Tema</a>
+              <a className="nav-link" href="/#"> < BsFillBrightnessHighFill/> Tema</a>
             </li>
             
 
           
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a className="nav-link dropdown-toggle" href="/Help" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Sugerencias y quejas
               </a>
               <ul className="dropdown-menu">
-                <li><p className="dropdown-item" type='text' href="#">Dejar una sugerencia</p></li>
-                <li><a className="dropdown-item" type='text' href="#">Dejar una quejas</a></li>
+                <li><p className="dropdown-item" type='text' href="/Help">Dejar una sugerencia</p></li>
+                <li><a className="dropdown-item" type='text' href="/Help">Dejar una quejas</a></li>
                 <li><hr className="dropdown-divider"/></li>
-                <li><a className="dropdown-item" href="#">Entrar al soporte</a></li>
+                <li><a className="dropdown-item" href="/Help">Entrar al soporte</a></li>
               </ul>
             </li>    
           </ul>

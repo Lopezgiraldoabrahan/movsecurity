@@ -1,29 +1,13 @@
-<<<<<<< HEAD
-import React from "react";
-import Form from "../componentes/Form";
-
-
-=======
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import Inicio from '../paginas/Inicio';
 // cambiar contendio por query
->>>>>>> origin/abrahan2
+
 
 const usuarioDeLaBaseDeDatos = {
   nombreDeUsuario: 'erick@mail.com',
   contrasenia: 'pan'
 };
 
-<<<<<<< HEAD
-function Login() {
-    return(
-        <div className='Login'>
-           <Form/>
-
-        </div>
-
-    );
-=======
 /**
  * Un hook personalizado para encapsular la logica
  * y separarla de la presentacion.
@@ -71,11 +55,13 @@ function useLogin() {
       establecerEstoyAutorizado
     }
   };
->>>>>>> origin/abrahan2
+
 }
 
 export const Login = () => {
   const { events, state } = useLogin();
+
+  
 
   return (
     <section className="vh-100 gradient-custom">

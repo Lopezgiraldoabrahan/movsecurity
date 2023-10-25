@@ -2,9 +2,12 @@ import React from "react";
 import ojito from "../imagenes/ojito.png";
 
 
+
 function Helpcenter(){
     return(
-        <div className='Centrico' px-1>
+        
+         <div>
+            
             <div class="card" style={{width: "100vw"}}>
                 <img src={ojito} alt=""/>
                 <div class="card-body">
