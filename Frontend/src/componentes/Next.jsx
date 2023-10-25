@@ -19,8 +19,8 @@ function Next(){
 </div>
                 </div>
                 <div class="card-body">
-                    <a href="#" class="card-link">Cancelar</a>
-                    <a href="#" class="card-link">Continuar</a>
+                    <a href="/Inicio" class="card-link">Cancelar</a>
+                    <a href="/Inicio" class="card-link">Continuar</a>
                 </div>
             </div>
             <div>

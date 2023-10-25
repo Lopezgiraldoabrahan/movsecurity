@@ -16,7 +16,7 @@ function Centrocontrol() {
                             <div class="card-body">
                                 <h5 class="card-title">TUS LUGARES</h5>
                                 <p class="card-text">Desde aqui puedes acceder a tus lugares y interactuar con ellos.</p>
-                                <a href="#" class="btn btn-primary">Ir a tus lugares</a>
+                                <a href="/Inicio" class="btn btn-primary">Ir a tus lugares</a>
                             </div>
                         </div>
                     </div>
@@ -25,14 +25,14 @@ function Centrocontrol() {
                             <div class="card-body">
                                 <h5 class="card-title">TUS CUENTAS</h5>
                                 <p class="card-text">Desde aqui puedes acceder a tus cuentas y interactuar con ellas.</p>
-                                <a href="#" class="btn btn-primary">Ir a tus cuentas</a>
+                                <a href="/Perfil" class="btn btn-primary">Ir a tus cuentas</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="card-body">
-                    <a href="#" class="card-link">Card link</a>
-                    <a href="#" class="card-link">Another link</a>
+                    <a href="/Inicio" class="card-link">Card link</a>
+                    <a href="/Inicio" class="card-link">Another link</a>
                 </div>
             </div>
 

@@ -30,9 +30,9 @@ function FormPago(){
           <div className="btn btn-primary bar"><span className="fas fa-bars"></span></div>
         </div>
         <ul className="nav nav-tabs mb-3 px-md-4 px-2">
-          <li className="nav-item"> <a className="nav-link px-2 active" aria-current="page" href="#">Trajeta de credito</a> </li>
-          <li className="nav-item"> <a className="nav-link px-2" href="#">Mobile Payment</a> </li>
-          <li className="nav-item ms-auto"> <a className="nav-link px-2" href="#">+ Mas</a> </li>
+          <li className="nav-item"> <a className="nav-link px-2 active" aria-current="page" href="/#">Trajeta de credito</a> </li>
+          <li className="nav-item"> <a className="nav-link px-2" href="/#">Mobile Payment</a> </li>
+          <li className="nav-item ms-auto"> <a className="nav-link px-2" href="/#">+ Mas</a> </li>
         </ul>
         <div className="px-md-5 px-4 mb-4 d-flex align-items-center">
           <div className="btn btn-success me-4"><span className="fas fa-plus"></span></div>

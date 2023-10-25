@@ -1,6 +1,6 @@
 import React from "react";
-import Centrocontrol from "./centrocontrol";
-import Pie from "./Pie";
+
+
 
 function Form(){
     return(
