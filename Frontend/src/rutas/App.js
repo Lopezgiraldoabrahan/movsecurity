@@ -21,8 +21,8 @@ function App () {
     <Router>
       <Routes>
 
-        <Route exact path='Inicio' element={<Inicio/>}/>
-        <Route exact path='/login' element={<Login/>}/>
+        <Route exact path='/Inicio' element={<Inicio/>}/>
+        <Route exact path='/' element={<Login/>}/>
         <Route exact path='/centro' element={<Centro/>}/>
         <Route exact path='/Help' element={<Help/>}/>
         <Route exact path='/Next' element={<Next/>}/>
