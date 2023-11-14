@@ -1,31 +1,32 @@
 import React from 'react';
 import Nav from '../componentes/nav';
+import { Link } from "react-router-dom";
+
 
 
 
 // style={{"width": "180px", "border-radius": "10px"}}
 function Perfil () {
+  
   return (
+
     
-    <section >
-      <Nav/>
-      <div className="container py-3" >
+    <section  >
+      <Nav />
+      
+      <div className="container py-3"  >
         <div className="card shadow">
           <div className="row">
           
             <div className="col">
-              <nav aria-label="breadcrumb" className="bg-light rounded-2 p-2 mb-2">
-                <ol className="breadcrumb mb-0">
-                  
-                </ol>
-              </nav>
+              
             </div>
           </div>
         </div>
 
         <div className="row">
           <div className="col-lg-4">
-            <div className="card mb-4">
+            <div className="card mb-4" id='ejemploo'>
               <div className="card-body text-center">
                 <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3.webp" alt="avatar"
                   className="rounded-circle img-fluid" style={{ width: '150px' }}/>
@@ -33,8 +34,18 @@ function Perfil () {
                 <p className="text-muted mb-1">Erick Santiago Sepúlveda Cortés</p>
                 <p className="text-muted mb-4"></p>
                 <div className="d-flex justify-content-center mb-2">
-                  <button type="button" className="btn btn-primary">Editar perfil</button>
-                  <button type="button" className="btn btn-outline-primary ms-1" ><a  className='Cerrar-Sesion' href="/Login"> Cerrar Sesion </a></button>
+                  
+                  <button type="button" className="btn btn-outline-primary ms-1">
+                    <Link style={{textDecoration: 'none'}} to="/pago">
+                    Editar plan
+                  </Link>
+                  </button>
+                  
+                  <button type="button" className="btn btn-outline-primary ms-1" >
+                  <Link style={{textDecoration: 'none'}} to="/">
+                    Cerrar Sesion
+                  </Link>
+                  </button>
                 </div>
               </div>
             </div>
@@ -114,6 +125,7 @@ function Perfil () {
                 </div>
               </div>
             </div>
+            
             <div className="row">
               <div className="col-md-6">
                 <div className="card mb-4 mb-md-0">

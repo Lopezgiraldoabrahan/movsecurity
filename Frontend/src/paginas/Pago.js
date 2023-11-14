@@ -7,13 +7,13 @@ import React from 'react';
 
 function Pago(){
   return(
-    <section style={{backgroundColor: '#eee'}}>
+    <section>
       <div className="container py-5">
         <div className="row d-flex justify-content-center">
           <div className="col-md-12 col-lg-10 col-xl-8">
             <div className="card">
               <div className="card-body p-md-5">
-                <h2> <a href='/Login'>Mov Security</a></h2>
+                <h2> <a href='/Inicio'>Mov Security</a></h2>
                 
                 <div>
                   <h6> Seleciona tu plan</h6>
@@ -115,8 +115,7 @@ function Pago(){
                   <label className="form-label" htmlFor="formControlLg">Email </label>
                 </div>
                 <div className="mt-3">
-                  <button className="btn btn-primary btn-block btn-lg">
-                Proceder al pago <i className="fas fa-long-arrow-alt-right"></i>
+                  <button className="btn btn-primary btn-block btn-lg" style={{backgroundColor:'#9575CD'}}><a href='/Inicio'> Proceder al Pago</a><i className="fas fa-long-arrow-alt-right" ></i>
                   </button>
                 </div>
               </div>

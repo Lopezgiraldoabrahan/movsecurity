@@ -1,10 +1,18 @@
 import React from 'react';
 import { BsFillBrightnessHighFill } from 'react-icons/bs';
+ 
 
 
 function Nav(){
+  function ModoOscuro(){
+    document.querySelector("body").setAttribute("data-bs-theme", "dark")
+    document.querySelector("nav").setAttribute("data-bs-theme", "dark")
+    document.querySelector("#ejemploo").setAttribute("data-bs-theme", "dark")
+    
+  }
+ 
   return(
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar navbar-expand-lg bg-body-tertiary" >
       <div className="container-fluid">
         <a className="navbar-brand" href="/Inicio">Mov Security</a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,8 +27,9 @@ function Nav(){
               <a className="nav-link" href="/#">Archivos</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/#"> < BsFillBrightnessHighFill/> Tema</a>
+               < BsFillBrightnessHighFill onClick={ModoOscuro}/>
             </li>
+            
             
 
           
