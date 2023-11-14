@@ -103,8 +103,10 @@ async function peticionPost(txtNombre,txtApellido,txtIdentificacion,txtTelefono,
 
                   <div className="d-flex justify-content-end pt-3">
                     <a type="button" className="btn btn-light btn-lg" href='/Login'>Iniciar </a>
-                    <button type="button" className="btn btn-warning btn-lg ms-2" href='/Pago' onClick={iniciarSesion}>Registrarme</button>
+                    <button type="button" className="btn btn-warning btn-lg ms-2"><a href='/Pago'>Registrarme</a></button>
+                  
                   </div>
+                  
 
                 </div>
               </div>

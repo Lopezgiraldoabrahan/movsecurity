@@ -7,12 +7,16 @@ import Nav from '../componentes/nav';
 
 
 
+
+
 function Inicio () {
   return (
     <div className='Inicio'>
       <Nav/>
       <hr/>
       <Camaras/>
+     
+
       <Footer/>
     </div>
   );

@@ -3,7 +3,7 @@ import React from 'react';
 import Centro from '../paginas/Centro';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
+import '../index.css';
 import Inicio from '../paginas/Inicio';
 import Perfil from '../paginas/Perfil';
 import Alerta from '../paginas/Alerta';
@@ -14,6 +14,7 @@ import Help from '../paginas/Help';
 import Next from '../componentes/Next';
 import Camaras from '../componentes/Camaras';
 import Pago from '../paginas/Pago';
+import Videollamada from '../paginas/videollamada';
 
 
 function App () {
@@ -32,6 +33,7 @@ function App () {
         <Route exact path='/registro' element={<Registro/>}/>
         <Route exact path='/Camaras' element={<Camaras/>}/>
         <Route exact path='/pago' element={<Pago/>}/>
+        <Route exact path='/VideoLlamada' element={<Videollamada/>}/>
         
       </Routes>
     </Router>
